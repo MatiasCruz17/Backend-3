@@ -15,3 +15,16 @@ MongoDB Atlas
 Mongoose
 dotenv
 brypt
+
+Para hacerlo funcionar:
+1. Clonar el repositorio
+2. Ejecutar npm install, para tener las dependencias.
+3. Crea un archivo .env, para que puedas cargar tus propios datos.
+4. Ejecuta node src/app.js para levantar el servidor en el puerto 8080.
+
+Los endpoints del proyecto:
+* GET /api/mocks/mockingpets, devuelve un array de 10 mascotas mockeadas.
+* GET /api/mocks/mockingusers, devuelve un array de 50 usuarios
+* POST /api/mocks/generateData, genera datos en Mongodb
+
+Matías Cruz dueño de este modelo.
